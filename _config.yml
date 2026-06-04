@@ -1,0 +1,10 @@
+title: Farenheigh — Thiago Oliveira Santos
+description: Software Architect · Mathematician · Open Source Enthusiast
+
+# GitHub Pages + Jekyll theme (built-in, no extra gems needed)
+theme: jekyll-theme-cayman
+
+# Show README.md as the homepage automatically on gh-pages branch
+source: .
+include: ['README.md', '_config.yml']
+exclude: ['.gitignore', '.github/']
