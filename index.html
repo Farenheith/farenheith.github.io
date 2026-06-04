@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Farenheith — Thiago Oliveira Santos | Software Architect</title>
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="styles.css"/>
+<meta name="description" content="Farenheith — Software Architect · Mathematician · Open Source"/>
+<link rel="canonical" href="https://farenheith.com"/>
+</head>
+<body>
+<div class="container">
+
+  <!-- Language Switcher -->
+  <div class="lang-switch">
+    <select id="langSelect" class="lang-select">
+      <option value="pt">🇧🇷 Português</option>
+      <option value="en">🇺🇸 English</option>
+      <option value="es">🇪🇸 Español</option>
+      <option value="zh">🇨🇳 中文</option>
+    </select>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero-section fade-slide">
+    <div class="hero-left">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/5713887?v=4" alt="Thiago Oliveira Santos - Farenheith">
+    </div>
+    <div class="hero-right">
+      <h1>Farenheith</h1>
+      <div class="hero-title" data-i18n="tagline">Thiago Oliveira Santos — Software Architect · Mathematician · Open Source Enthusiast</div>
+      <div class="hero-meta">
+        <span class="location-badge" data-i18n="location">📍 São Paulo, Brazil 🇧🇷</span>
+        <div class="badge-row">
+          <a href="https://github.com/Farenheith" target="_blank" rel="noopener" class="badge">🐙 GitHub / Farenheith</a>
+          <a href="https://github.com/codibre" target="_blank" rel="noopener" class="badge">⚡ Codibre Org</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-grid fade-slide delay-1">
+    <div class="stat-card"><div class="stat-number">78+</div><div class="stat-label" data-i18n="stat_repos">Public Repos</div></div>
+    <div class="stat-card"><div class="stat-number">64+</div><div class="stat-label" data-i18n="stat_prs">External PRs Merged</div></div>
+    <div class="stat-card"><div class="stat-number">72+</div><div class="stat-label" data-i18n="stat_codibre">Codibre Projects</div></div>
+  </div>
+
+  <!-- Bio card (nova descrição rica) -->
+  <div class="bio-card fade-slide delay-1">
+    <div class="bio-text" data-i18n="bio">
+      <!-- Será preenchido pelo i18n.js -->
+    </div>
+  </div>
+
+  <!-- Projects section (apenas projetos pessoais/da org) -->
+  <div class="fade-slide delay-2">
+    <div class="section-title" data-i18n="projects_title">🔥 Notable Projects</div>
+    <div class="projects-grid">
+      <a href="https://play.google.com/store/apps/details?id=com.farenheith.floatyfish" target="_blank" class="project-card">
+        <div class="project-title">Floaty Fish</div>
+        <div class="project-desc" data-i18n="project_floaty_desc">Arcade game with an ocean‑themed world and unlockable secrets.</div>
+      </a>
+      <a href="https://github.com/codibre/fluent-iterable" target="_blank" class="project-card">
+        <div class="project-title">@codibre/fluent-iterable</div>
+        <div class="project-desc" data-i18n="project_fluent_desc">Fluent API for Iterables, AsyncIterables and Streams — high‑performance functional chaining.</div>
+        <div class="tag-group"><span class="tech-tag">TypeScript</span></div>
+      </a>
+      <a href="https://github.com/codibre/nestjs-context" target="_blank" class="project-card">
+        <div class="project-title">@codibre/nestjs-context</div>
+        <div class="project-desc" data-i18n="project_nestctx_desc">Clean context propagation in NestJS microservices via AsyncLocalStorage — no hacks.</div>
+        <div class="tag-group"><span class="tech-tag">NestJS</span><span class="tech-tag">Node.js</span></div>
+      </a>
+    </div>
+  </div>
+
+  <!-- External Contributions (inclui PRs e também os mods Minecraft) -->
+  <div class="fade-slide delay-2">
+    <div class="section-title" data-i18n="contrib_title">🌍 External Contributions · 64+ Merged PRs</div>
+    <div class="contrib-wrapper">
+      <table class="contrib-table">
+        <thead><tr><th data-i18n="contrib_project">Project / Org</th><th data-i18n="contrib_desc">Relevant Contribution</th></tr></thead>
+        <tbody id="contrib-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Stack -->
+  <div class="fade-slide delay-3">
+    <div class="section-title" data-i18n="stack_title">🛠️ Stack & Tools</div>
+    <div class="stack-box">
+      <ul class="stack-list" id="stack-list"></ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer fade-slide delay-3">
+    <p data-i18n="footer_made">Made with ❤️ by <strong>Farenheith</strong> · Powered by math & ☕</p>
+    <span style="font-size: 0.75rem;">© 2025 Thiago Oliveira Santos</span>
+  </div>
+</div>
+
+<script src="i18n.js"></script>
+</body>
+</html>
